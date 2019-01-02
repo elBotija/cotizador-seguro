@@ -1,0 +1,63 @@
+.App{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    display: block;
+    background: #F5F5F6;
+    overflow: hidden;
+}
+.header{
+    background: #ffa726;
+    padding:5px;
+    margin-bottom: 15px;
+}
+.header .obj-title{
+    color:#000;
+    text-align: center;
+    margin: 15px;
+    font-size: 40px;
+}
+.mb-3{
+    margin-bottom: 15px;
+}
+.d-block{
+    display: block;
+}
+.campo{
+    margin-bottom: 20px;
+}
+.cotizar-auto{
+    margin: 0 20px 20px 20px;
+}
+.clear-line{
+    width: 100%;
+}
+.clear-line p{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Animacion */
+.resultado{
+    position: relative;
+}
+.resultado-enter {
+  transition: .5s;
+  transform: translateY(120%) ;
+}
+
+.resultado-enter.resultado-enter-active{
+  transform: translateY(120%);
+}
+.resultado-exit{
+  transform: translateY(0);
+  transition:.5s;
+  position : absolute;
+  left: 0;
+  bottom : 0;
+  width: 100%;
+}
+.resultado-exit-active{
+  opacity: 0;
+  transform: translateY(-100%);
+}
