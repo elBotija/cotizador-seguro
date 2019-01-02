@@ -41,6 +41,7 @@ class InteractionForm extends Component {
                    <label className="mb-3 d-block">Año</label>
                    <select name="year" ref={this.yearRef} className='browser-default mb-4'>
                         <option defaultValue="" disabled="">Seleccione una Año</option>
+                        <option value="2019">2019</option>
                         <option value="2018">2018</option>
                         <option value="2017">2017</option>
                         <option value="2016">2016</option>

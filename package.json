@@ -2,17 +2,21 @@
   "name": "cotizador-seguro",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://elBotija.github.io/cotizador-seguro/",
   "dependencies": {
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
+    "gh-pages": "^2.0.1",
     "jquery": "^3.3.1",
     "materialize-css": "^1.0.0-rc.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
     "react-materialize": "^2.6.0",
     "react-scripts": "2.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

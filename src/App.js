@@ -2,9 +2,11 @@ import React, { Component } from 'react';
 
 import Header from './components/Header'
 import InteractionForm from './components/InteractionForm'
+import Resumen from './components/Resumen'
+import Consigna from './components/Consigna'
+
 import { obtenerDiferenciaAnio, calcularMarca, obtenerPlan } from './helper'
 
-import Resumen from './components/Resumen'
 
 import './css/App.css';
 
@@ -65,6 +67,7 @@ class App extends Component {
                 datos={this.state.datos}
                 resultado={this.state.resultado}
             />
+            <Consigna/>
         </div>
     );
   }
